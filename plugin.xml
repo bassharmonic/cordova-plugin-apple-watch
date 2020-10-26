@@ -1,9 +1,12 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<plugin id="cordova-plugin-apple-watch" version="0.11.5" xmlns="http://apache.org/cordova/ns/plugins/1.0">
+<plugin id="cordova-plugin-apple-watch" version="0.20.0" xmlns="http://apache.org/cordova/ns/plugins/1.0">
     <name>Apple Watch</name>
     <author>Lee Crossley (http://ilee.co.uk/)</author>
     <description>Cordova / PhoneGap Plugin for the Apple Watch (WatchKit) to allow communication
-        between a Cordova app and an Apple WatchKit Extension (and vice versa)</description>
+        between a Cordova app and an Apple WatchKit Extension (and vice versa). 
+        Updated following: MMWormholeCoordinatedFileTransiting.h, MMWormholeCoordinatedFileTransiting.m, 
+        MMWormholeSessionContextTransiting.m, and MMWormholeSessionFileTransiting.m from latest MMWormhole project
+        at https://github.com/mutualmobile/MMWormhole.</description>
     <keywords>cordova, apple, watch, watchkit, message, queue, json, extension,
         darwin, notification, glance, user, defaults, nsuserdefaults</keywords>
     <license>MIT</license>
